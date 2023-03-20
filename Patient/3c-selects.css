@@ -1,0 +1,45 @@
+
+
+/* (B) SELECT APPOINTMENT DATE/SLOT */
+#select {
+  width: 100%;
+  border-collapse: collapse;
+}
+#select th, #select td {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #d7d7d7;
+}
+#select th {
+  font-weight: 700;
+  color: #fff;
+  background: black;
+}
+#select td { background: #fff; }
+#select td.booked {
+  color: white;
+  background: gray;
+}
+#select td.selected { background: #feffaa; }
+
+/* (C) CONFIRMATION FORM */
+#confirm {
+  display: flex;
+  padding: 10px;
+}
+#confirm input[type=text] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 0;
+}
+#confirm input[type=text]:focus {
+  outline-width: 0;
+}
+#confirm input[type=submit] {
+  padding: 10px 20px;
+  border: 0;
+  color: #fff;
+  background: #2460ab;
+  cursor: pointer;
+}
+#confirm input[type=submit]:disabled { background: #9d9d9d; }
